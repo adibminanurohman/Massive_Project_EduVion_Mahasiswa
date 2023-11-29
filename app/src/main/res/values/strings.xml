@@ -1,5 +1,92 @@
 <resources>
     <string name="app_name">Massive_Project_EduVion_Mahasiswa</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tittle_chat">Chat</string>
+    <string name="peter">Muhammad Peter</string>
+    <string name="konsultasi_online">Konsultasi Online</string>
+    <string name="tony">Tony</string>
+    <string name="anton">Anton</string>
+    <string name="jadwal_penelitian">Jadwal Penelitian</string>
+    <string name="skrpsi">Skripsi</string>
+    <string name="in_progress">In Progress</string>
+    <string name="konsultasi">Konsultasi</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="kembali">Kembali!</string>
+    <string name="nama">Nama</string>
+    <string name="email">Email</string>
+    <string name="topik_skripsi">Topik Skripsi</string>
+    <string name="judul_skripsi">Judul Skripsi</string>
+    <string name="essay_content">Essay Content</string>
+    <string name="maximum500words">Maximum 500 words</string>
+    <string name="status_skripsi">Status Skripsi</string>
+    <string name="splash_text">Untuk digitalisasi pendidikanyang lebih baik.</string>
+    <string name="scan_barcode">Scan QR Code</string>
+    <string name="google_signin">Sign In via Google</string>
+    <string name="onboard1">Selamat Datang di</string>
+    <string name="tahukah">Tahukah Kamu?</string>
+    <string name="onboard2">Banyak masalah yang dihadapi oleh para
+mahasiswa saat mengerjakan skripsi.
+Menurut penelitian, sekitar 40% terkendala
+masalah internal, dan 60% terkendala
+masalah eksternal.
+ </string>
+    <string name="onboard2_2">Adapun masalah yang dihadapi diantaranya
+adalah permasalahan dengan dosen
+pembimbing, tidak memiliki cukup waktu,
+kejadian diluar perencanaan,
+dan masih banyak lagi.</string>
+    <string name="kami_hadir">Kami hadir sebagai
+solusi!</string>
+    <string name="onboard3">Eduvion hadir sebagai sarana bagi para
+mahasiswa dan juga dosen pembimbing
+untuk mengelola, dan melakukan bimbingan.
+Semuanya secara online!</string>
+    <string name="onboard3_3">Eduvion juga berperan dalam digitalisasi
+pendidikan untuk memberikan kemudahan,
+terutama dalam proses skripsi,
+dengan solusi yang lebih fleksibel
+dan juga cost-effective!</string>
+    <string name="tidak_hanya">Tidak hanya itu!</string>
+    <string name="onboard4">Selama proses bimbingan, kamu juga dapat
+mencari referensi dari skripsi para alumni
+dengan fitur e-jurnal, loh!</string>
+    <string name="onboard4_4">Selain itu, dosen pembimbing juga dapat
+memberikan referensi mereka melalui chat,
+komentar, maupun video call, dan tentunya
+penjadwalan yang diharapkan akan
+mengurangi resiko mahasiswa ataupun dosen
+yang menghilang saat proses bimbingan</string>
+    <string name="tunggu_apa">Tunggu apa lagi?</string>
+    <string name="onboard5">Mulai langkah pertamamu dalam peran
+menuju digitalisasi pendidikan yang lebih baik!</string>
+    <string name="saya_adalah">Saya adalah seorang...</string>
+    <string name="onboard6">Pemilihan role ini akan menentukan
+penggunaan dan tampilan
+aplikasi nantinya.</string>
+    <string name="kampus_universitas">Kampus/Universitas
+tempat saya berada
+adalah...</string>
+    <string name="onboard7">Aplikasi akan melakukan koneksi dengan
+kampus terkait untuk mengecek email
+yang akan kamu gunakan</string>
+    <string name="barcode_scan">Barcode Scanner</string>
+    <string name="desc_barcode1">Scan QR Code di halaman website untuk melakukan login secara langsung lewat user > settings > view QR code.</string>
+    <string name="desc_barcode2">Scan QR Code di halaman website untuk melakukan login secara langsung lewat profil > view QR code.</string>
+    <string name="user_ditemukan">User Ditemukan</string>
+    <string name="muhammad_peter">Muhammad Peter</string>
+    <string name="universitas_misigan">Universitas Misigan Mahasiswa - 3148395324</string>
+    <string name="animasi">Animasi</string>
+    <string name="loading_screen_tip">Pro tip: Ini adalah tips yang berguna. Akan muncul setiap aplikasi ini sedang memuat :)</string>
+    <string name="acara_mendatang">Acara Mendatang</string>
+    <string name="status_chat">Online terakhir pada 12.04</string>
+    <string name="ket_chat">Percakapan dimulai pada 08/10/2033</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="akun_email">peter.3148@student.misigan.ac.id</string>
+    <string name="phone">Phone</string>
+    <string name="number_phone">+1 123-456-7890</string>
+    <string name="password">Password</string>
+    <string name="universitas_misigan_tony">Universitas Misigan Dosen - 4382345</string>
+    <string name="judul">Judul</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="link">Link</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
