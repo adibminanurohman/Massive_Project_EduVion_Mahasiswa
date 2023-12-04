@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.mahasiswa.KalenderActivity"
+    tools:context=".activity.KalenderActivity"
     android:background="@drawable/bg_kalender">
 
   <ImageButton
@@ -49,7 +49,7 @@
       app:layout_constraintHorizontal_bias="0.495"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/imageButton3"
-      app:layout_constraintVertical_bias="0.088" />
+      app:layout_constraintVertical_bias="0.035" />
 
   <TextView
       android:id="@+id/textView6"
@@ -90,42 +90,44 @@
       app:layout_constraintHorizontal_bias="0.119"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.633" />
+      app:layout_constraintVertical_bias="0.602" />
 
-  <ImageView
-      android:id="@+id/imageView7"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:contentDescription="bimbingan skripsi"
-      android:src="@drawable/blankspace"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/imageButton3"
-      app:layout_constraintVertical_bias="0.977" />
+
 
   <ImageView
       android:id="@+id/imageView8"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
+      android:layout_width="367dp"
+      android:layout_height="80dp"
       android:contentDescription="bimbingan skripsi"
       android:src="@drawable/bimbingan_akademik"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/imageButton3"
-      app:layout_constraintVertical_bias="0.734" />
+      app:layout_constraintVertical_bias="0.69" />
 
   <ImageView
       android:id="@+id/imageView9"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
+      android:layout_width="367dp"
+      android:layout_height="80dp"
       android:contentDescription="bimbingan skripsi"
       android:src="@drawable/bimbingan_akademik"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/imageButton3"
-      app:layout_constraintVertical_bias="0.885" />
+      app:layout_constraintVertical_bias="0.829" />
+
+  <ImageView
+      android:id="@+id/imageView7"
+      android:layout_width="357dp"
+      android:layout_height="wrap_content"
+      android:contentDescription="bimbingan skripsi"
+      android:src="@drawable/ajukan_jadwal_baru"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+      app:layout_constraintVertical_bias="0.934" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

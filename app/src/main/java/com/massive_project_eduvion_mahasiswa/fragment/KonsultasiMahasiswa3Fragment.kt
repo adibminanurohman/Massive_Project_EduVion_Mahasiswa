@@ -7,28 +7,30 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.massive_project_eduvion_mahasiswa.R
-import com.massive_project_eduvion_mahasiswa.databinding.FragmentKonsultasiMahasiswaBinding
+import com.massive_project_eduvion_mahasiswa.databinding.FragmentKonsultasiMahasiswa2Binding
+import com.massive_project_eduvion_mahasiswa.databinding.FragmentKonsultasiMahasiswa3Binding
 
-class KonsultasiMahasiswaFragment : Fragment() {
 
-    private lateinit var binding: FragmentKonsultasiMahasiswaBinding
+class KonsultasiMahasiswa3Fragment : Fragment() {
+    private lateinit var binding: FragmentKonsultasiMahasiswa3Binding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentKonsultasiMahasiswaBinding.inflate(inflater, container, false)
+        binding = FragmentKonsultasiMahasiswa3Binding.inflate(inflater, container, false)
 
-        binding.btnAjukanSkripsi.setOnClickListener {
-            navigateToKonsultasiMahasiswa2Fragment()
+        binding.imageButton13.setOnClickListener {
+            navigateToChatMahasiswaFragment()
         }
 
         return binding.root
     }
 
-    private fun navigateToKonsultasiMahasiswa2Fragment() {
+
+    private fun navigateToChatMahasiswaFragment() {
         // Create an instance of the fragment you want to navigate to
-        val fragmentKonsultasiMahasiswa2 = KonsultasiMahasiswa2Fragment()
+        val fragmentChatMahasiswa = ChatMahasiswaFragment()
 
         // Get the FragmentManager
         val fragmentManager = parentFragmentManager
@@ -37,7 +39,7 @@ class KonsultasiMahasiswaFragment : Fragment() {
         val transaction = fragmentManager.beginTransaction()
 
         // Replace the current fragment with the new one
-        transaction.replace(R.id.fragment_container, fragmentKonsultasiMahasiswa2)
+        transaction.replace(R.id.fragment_container, fragmentChatMahasiswa)
 
         // Add the transaction to the back stack (optional)
         transaction.addToBackStack(null)

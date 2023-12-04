@@ -42,41 +42,51 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="638dp"
+            android:layout_width="wrap_content"
+            android:layout_height="711dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/constraintLayout6">
 
             <ImageView
                 android:id="@+id/imageView5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="410dp"
+                android:layout_height="140dp"
                 android:layout_marginTop="24dp"
-                android:src="@drawable/statusskripsi1"
+                android:src="@drawable/bimbingan_selesai"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/imageView6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:src="@drawable/statusskripsi2"
+                android:layout_width="410dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/bimbingan_ditolak"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
             <ImageView
-                android:id="@+id/imageView8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="28dp"
-                android:src="@drawable/statusskripsi3"
+                android:id="@+id/imageView9"
+                android:layout_width="410dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/proses_bimbingan"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="410dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/pengajuan_bimbingan"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView9" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

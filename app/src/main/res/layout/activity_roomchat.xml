@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.mahasiswa.RoomchatActivity"
+    tools:context=".activity.RoomchatActivity"
     android:background="@drawable/bgroomchat">
 
     <ImageButton
@@ -66,11 +66,12 @@
         app:layout_constraintVertical_bias="0.01" />
 
     <ImageButton
-        android:layout_width="35dp"
-        android:layout_height="35dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:scaleType="fitXY"
         android:background="@android:color/transparent"
         android:src="@drawable/ic_setting"
+        android:onClick="navigateToPengaturanActivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.956"

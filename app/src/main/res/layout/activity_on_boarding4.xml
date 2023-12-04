@@ -62,8 +62,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="366dp"
-        android:layout_height="96dp"
+        android:layout_width="367dp"
+        android:layout_height="109dp"
         android:layout_marginBottom="112dp"
         android:fontFamily="@font/quicksandsemibold"
         android:text="@string/onboard4_4"
