@@ -51,7 +51,6 @@
         android:id="@+id/imageView3"
         android:layout_width="305dp"
         android:layout_height="257dp"
-        android:onClick="navigateToBarcode1"
         android:src="@drawable/imglogin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,6 +64,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:contentDescription="Scan barcode"
+        android:onClick="navigateToBarcode1"
         android:src="@drawable/scan_via"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -86,7 +86,7 @@
         app:layout_constraintVertical_bias="0.052" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edtLoginPassword"
         android:layout_width="340dp"
         android:layout_height="wrap_content"
         android:background="@drawable/framekatasandi"
@@ -97,26 +97,26 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/edtLoginEmail"
         app:layout_constraintVertical_bias="0.125" />
 
     <ImageButton
+        android:id="@+id/btn_login"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:background="@android:color/transparent"
         android:contentDescription="Button login"
         android:scaleType="fitXY"
         android:src="@drawable/btnmasuk"
-        android:onClick="navigateToBarcode1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/edtLoginPassword"
         app:layout_constraintVertical_bias="0.458" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/edtLoginEmail"
         android:layout_width="340dp"
         android:layout_height="wrap_content"
         android:background="@drawable/frameemail"
