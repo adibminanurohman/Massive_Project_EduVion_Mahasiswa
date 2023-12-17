@@ -1,6 +1,5 @@
 package com.massive_project_eduvion_mahasiswa.fragment
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -9,8 +8,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.massive_project_eduvion_mahasiswa.R
 import com.massive_project_eduvion_mahasiswa.databinding.FragmentKonsultasiMahasiswa2Binding
-import com.massive_project_eduvion_mahasiswa.databinding.FragmentKonsultasiMahasiswaBinding
-import com.massive_project_eduvion_mahasiswa.models.DissertationsResponse
 
 class KonsultasiMahasiswa2Fragment : Fragment() {
     private lateinit var binding: FragmentKonsultasiMahasiswa2Binding

@@ -4,6 +4,12 @@ import com.google.gson.annotations.SerializedName
 
 data class DissertationsResponse(
 
+	@field:SerializedName("DissertationsResponse")
+	val dissertationsResponse: List<DissertationsResponseItem?>? = null
+)
+
+data class DissertationsResponseItem(
+
 	@field:SerializedName("chapter")
 	val chapter: String? = null,
 

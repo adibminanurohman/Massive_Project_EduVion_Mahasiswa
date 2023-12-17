@@ -6,10 +6,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.massive_project_eduvion_dosen.network.RetrofitClient
 import com.massive_project_eduvion_mahasiswa.R
-import com.massive_project_eduvion_mahasiswa.adapter.KonsultasiAdapter
 import com.massive_project_eduvion_mahasiswa.databinding.FragmentKonsultasiMahasiswaBinding
 import com.massive_project_eduvion_mahasiswa.models.DissertationsRequest
 import com.massive_project_eduvion_mahasiswa.models.DissertationsResponse

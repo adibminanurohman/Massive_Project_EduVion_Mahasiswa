@@ -7,10 +7,11 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.massive_project_eduvion_mahasiswa.R
 import com.massive_project_eduvion_mahasiswa.models.DissertationsResponse
+import com.massive_project_eduvion_mahasiswa.models.DissertationsResponseItem
 
 
 class KonsultasiAdapter(
-    private val KonsultasiList : List<DissertationsResponse>
+    private val KonsultasiList : List<DissertationsResponseItem>
 ): RecyclerView.Adapter<KonsultasiAdapter.MyViewHolder>() {
 
 
