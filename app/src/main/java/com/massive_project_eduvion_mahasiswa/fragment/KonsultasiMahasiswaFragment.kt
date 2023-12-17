@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import com.massive_project_eduvion_dosen.network.RetrofitClient
 import com.massive_project_eduvion_mahasiswa.R
 import com.massive_project_eduvion_mahasiswa.databinding.FragmentKonsultasiMahasiswaBinding
@@ -79,6 +80,9 @@ class KonsultasiMahasiswaFragment : Fragment() {
                         navigateToKonsultasiMahasiswa2Fragment()
                     } else {
                         Log.e("data belum berhasil kode:", response.code().toString())
+                        activity?.runOnUiThread {
+                            Toast.makeText(requireContext(), "Silakan masukkan data", Toast.LENGTH_SHORT).show()
+                        }
                     }
                 }
 
