@@ -48,45 +48,15 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/constraintLayout6">
 
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="410dp"
-                android:layout_height="140dp"
-                android:layout_marginTop="24dp"
-                android:src="@drawable/bimbingan_selesai"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="410dp"
-                android:layout_height="140dp"
-                android:layout_marginTop="8dp"
-                android:src="@drawable/bimbingan_ditolak"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView5" />
-
-            <ImageView
-                android:id="@+id/imageView9"
-                android:layout_width="410dp"
-                android:layout_height="140dp"
-                android:layout_marginTop="8dp"
-                android:src="@drawable/proses_bimbingan"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView6" />
-
-            <ImageView
-                android:id="@+id/imageView10"
-                android:layout_width="410dp"
-                android:layout_height="140dp"
-                android:layout_marginTop="8dp"
-                android:src="@drawable/pengajuan_bimbingan"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_konsultasi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:padding="8dp"
+                android:scrollbars="vertical"
+                tools:layout_editor_absoluteX="8dp"
+                tools:listitem="@layout/item_consultation" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

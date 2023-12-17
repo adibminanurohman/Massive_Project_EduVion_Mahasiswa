@@ -37,10 +37,11 @@ class LoginActivity : AppCompatActivity() {
         request.email = binding.edtLoginEmail.text.toString()
         request.password = binding.edtLoginPassword.text.toString()
 
-        RetrofitClient.getApi(this).login(request).enqueue(object : Callback<LoginResponse>{
+        RetrofitClient.getApi().login(request).enqueue(object : Callback<LoginResponse>{
             override fun onResponse(call: Call<LoginResponse>, response: Response<LoginResponse>) {
                 val data = response.body()
                 var token = data?.token
+                Log.d("token", token.toString())
                 Log.d("data: ", data.toString())
                 if (token != null){
                     startActivity(Intent(this@LoginActivity, LoadingScreenActivity::class.java))

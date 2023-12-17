@@ -6,26 +6,29 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.RecyclerView
 import com.massive_project_eduvion_mahasiswa.R
 import com.massive_project_eduvion_mahasiswa.databinding.FragmentKonsultasiMahasiswa2Binding
 import com.massive_project_eduvion_mahasiswa.databinding.FragmentKonsultasiMahasiswaBinding
+import com.massive_project_eduvion_mahasiswa.models.DissertationsResponse
 
 class KonsultasiMahasiswa2Fragment : Fragment() {
     private lateinit var binding: FragmentKonsultasiMahasiswa2Binding
-
+    private lateinit var recyclerView: RecyclerView
+    private lateinit var dissertationList: RecyclerView
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
         binding = FragmentKonsultasiMahasiswa2Binding.inflate(inflater, container, false)
 
-        binding.imageButton14.setOnClickListener {
-            navigateToKonsultasiMahasiswa3Fragment()
-        }
-
-        binding.imageButton13.setOnClickListener {
-            navigateToChatMahasiswaFragment()
-        }
+//        binding.imageButton14.setOnClickListener {
+//            navigateToKonsultasiMahasiswa3Fragment()
+//        }
+//
+//        binding.imageButton13.setOnClickListener {
+//            navigateToChatMahasiswaFragment()
+//        }
 
         return binding.root
     }

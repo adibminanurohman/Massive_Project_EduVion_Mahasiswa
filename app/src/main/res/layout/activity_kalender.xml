@@ -54,19 +54,21 @@
   <TextView
       android:id="@+id/textView6"
       android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
+      android:layout_height="23dp"
+      android:layout_marginTop="55dp"
+      android:layout_marginBottom="30dp"
       android:fontFamily="@font/latoregular"
-      android:textColor="@color/black"
       android:text="@string/acara_mendatang"
+      android:textColor="@color/black"
       android:textSize="19sp"
-      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintBottom_toTopOf="@+id/textView1"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.076"
+      app:layout_constraintHorizontal_bias="0.083"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/imageView4"
-      app:layout_constraintVertical_bias="0.122" />
+      app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
   <ImageView
+      android:id="@+id/imageView31"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:contentDescription="line"
