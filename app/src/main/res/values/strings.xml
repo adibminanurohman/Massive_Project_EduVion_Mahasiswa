@@ -92,4 +92,5 @@ yang akan kamu gunakan</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="bimbingan_menunggu">Bimbingan skripsi menunggu konfirmasi</string>
     <string name="bimbingan_berlangsung">Bimbingan skripsi sedang berlangsung</string>
+    <string name="choose_item">Choose an Item</string>
 </resources>

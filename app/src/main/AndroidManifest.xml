@@ -53,6 +53,7 @@
             android:exported="false" />
         <activity
             android:name=".activity.LoadingScreenActivity"
+            android:hardwareAccelerated="true"
             android:exported="false" />
         <activity
             android:name=".activity.Barcode2Activity"
