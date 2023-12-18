@@ -6,6 +6,8 @@ import com.massive_project_eduvion_dosen.models.LoginResponse
 import com.massive_project_eduvion_mahasiswa.models.DissertationsRequest
 import com.massive_project_eduvion_mahasiswa.models.DissertationsResponse
 import com.massive_project_eduvion_mahasiswa.models.DosenResponse
+import com.massive_project_eduvion_mahasiswa.models.EventRequest
+import com.massive_project_eduvion_mahasiswa.models.EventResponse
 import retrofit2.Call
 import retrofit2.http.Body
 import retrofit2.http.GET
@@ -25,4 +27,7 @@ interface ApiService {
     @GET("dosen") // Ganti dengan endpoint yang benar
     fun getAllDosen():retrofit2.Call<DosenResponse>
     abstract fun getAllDissertations(): Call<DissertationsResponse>
+
+    @POST("event/create") // Ganti dengan endpoint yang benar
+    fun createEvent(@Body request: EventRequest):retrofit2.Call<EventResponse>
 }

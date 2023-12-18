@@ -67,6 +67,21 @@
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
+  <TextView
+      android:id="@+id/textView12"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/latoregular"
+      android:text="Acara Mendatang"
+      android:textColor="@color/black"
+      android:textSize="18sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.08"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.528" />
+
   <ImageView
       android:id="@+id/imageView31"
       android:layout_width="wrap_content"
@@ -75,9 +90,10 @@
       android:src="@drawable/line"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.55"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/imageView4"
-      app:layout_constraintVertical_bias="0.198" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.556" />
 
   <TextView
       android:id="@+id/textView1"
@@ -89,12 +105,10 @@
       android:textSize="17sp"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.119"
+      app:layout_constraintHorizontal_bias="0.131"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.602" />
-
-
+      app:layout_constraintVertical_bias="0.6" />
 
   <ImageView
       android:id="@+id/imageView8"
@@ -121,7 +135,8 @@
       app:layout_constraintVertical_bias="0.829" />
 
   <ImageView
-      android:id="@+id/imageView7"
+      android:id="@+id/btn_ajukan_jadwal"
+      android:onClick="navigateToAddKalenderActivity"
       android:layout_width="357dp"
       android:layout_height="wrap_content"
       android:contentDescription="bimbingan skripsi"
