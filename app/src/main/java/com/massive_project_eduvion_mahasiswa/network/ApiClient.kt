@@ -6,10 +6,10 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
-    private const val BASE_URL = "http://192.168.1.9:8080/api/"
+    private const val BASE_URL = "http://192.168.68.97:8080/api/"
     private  lateinit var apiService: ApiService
 
-    val token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTdiMDg1MDZmNmM2ZjBkYzIwMzYwN2IiLCJpYXQiOjE3MDI4MjUxNzQsImV4cCI6MTcwMzA4NDM3NH0.yLQxDvQDehel394q9EaTgCneUA0ilbCbh1LB-amSvww"
+    val token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTdkYmM4NzY3N2QyOTBhM2VmNGJhYzQiLCJpYXQiOjE3MDMwNTI4MDQsImV4cCI6MTcwMzMxMjAwNH0.4Xk99iKXjAAt3OEAeMju6eoC0emPE_USrY88XPt5Mn0"
     val client = OkHttpClient.Builder().apply {
         addInterceptor{chain ->
             val request = chain.request().newBuilder()

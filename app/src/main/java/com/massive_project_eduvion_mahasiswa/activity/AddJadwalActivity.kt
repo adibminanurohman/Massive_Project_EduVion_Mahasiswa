@@ -6,14 +6,16 @@ import android.os.Bundle
 import android.view.View
 import com.massive_project_eduvion_mahasiswa.R
 
-class KalenderActivity : AppCompatActivity() {
+class AddJadwalActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_kalender)
+        setContentView(R.layout.activity_add_jadwal)
     }
-    fun navigateToAddJadwalActivity(view: View) {
+
+    fun navigateToKalenderActivity(view: View) {
         // Assuming KonsultasiMahasiswa2Activity is the target activity
-        val intent = Intent(this, AddJadwalActivity::class.java)
+        val intent = Intent(this, KalenderActivity::class.java)
         startActivity(intent)
     }
 }
+
